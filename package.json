@@ -2,6 +2,20 @@
   "name": "react-hooks-npm-lab",
   "version": "0.1.0",
   "private": true,
+  "description": "- Use a `package.json` file to manage project dependencies - Install a project dependency using npm - Import code from a package into a JavaScript file",
+  "keywords": [],
+  "homepage": "https://github.com/learn-co-curriculum/react-hooks-npm-lab#readme",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/react-hooks-npm-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/react-hooks-npm-lab.git"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Flatiron School",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -17,17 +31,9 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/learn-co-curriculum/react-hooks-npm-lab.git"
-  },
-  "author": "Flatiron School",
-  "license": "CC-BY-NC-SA-4.0",
-  "bugs": {
-    "url": "https://github.com/learn-co-curriculum/react-hooks-npm-lab/issues"
-  },
-  "homepage": "https://github.com/learn-co-curriculum/react-hooks-npm-lab#readme",
-  "keywords": []
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.25.2",
+    "serve": "^14.2.4"
+  }
 }
